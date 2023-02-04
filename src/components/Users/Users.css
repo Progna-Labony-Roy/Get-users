@@ -1,0 +1,29 @@
+.main-div{
+    width: 75%;
+    margin: 40px auto;
+}
+
+.user-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .user-div{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .main-div{
+        width: 60% ;
+    }
+
+    .user-div{
+        grid-template-columns: 1fr;
+    }
+}

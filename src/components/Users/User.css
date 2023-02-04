@@ -1,0 +1,36 @@
+.user{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.image{
+    padding: 6% 28% 0%;
+}
+
+.name{
+    display: flex;
+    margin-bottom: -25px;
+    display: flex;
+    justify-content: center;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.firstName{
+    margin-right: 5px;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    .image{
+        padding: 6% 32% 0%;
+    }
+}

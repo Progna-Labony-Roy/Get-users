@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-image: linear-gradient(to bottom right,#DFFF00 ,#E8DAEF ,#DFFF00  );
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navitem{
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.navitem:hover{
+    font-weight: 500;
+    padding: 10px 9px;
+}
