@@ -1,6 +1,6 @@
 .main-div{
     width: 75%;
-    margin: 40px auto;
+    margin: 70px auto;
 }
 
 .user-div{
@@ -21,6 +21,7 @@
 @media only screen and (max-width: 600px) {
     .main-div{
         width: 60% ;
+        margin: 50px auto;
     }
 
     .user-div{
